@@ -1,0 +1,12 @@
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/AjaxRegisterFormServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/RegistrationServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/LogoutServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/services/sendMail.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/beans/User.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/AjaxInfoViewServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/LoginServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/dao/DaoImpl.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/servlets/UserInfoServlet.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/services/Service.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/dao/Dao.java
+/mnt/c/Users/SP3/Development/Revature/Week5/StudentTeacherProject/src/main/java/com/revature/threads/EmailNewStudent.java
