@@ -1,0 +1,21 @@
+nav {
+	display: flex;
+    height: 90px;
+    margin: 15px;
+}
+
+#view {
+	text-align: center;
+}
+
+#infoView {
+	margin: 20px;
+}
+
+#register-trigger {
+	margin-top: 50px;
+}
+
+.laurel {
+	height:80px;
+}
