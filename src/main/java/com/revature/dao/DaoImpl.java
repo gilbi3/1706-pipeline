@@ -9,6 +9,15 @@ import java.sql.SQLException;
 import com.revature.beans.User;
 
 public class DaoImpl implements Dao{
+
+
+	static {
+		try {
+	            Class.forName("oracle.jdbc.driver.OracleDriver");
+	        } catch (ClassNotFoundException e) {
+	            e.printStackTrace();
+	        }
+	}
 	
 	
 	private static final String USERNAME = "student_teacher_db";
@@ -20,12 +29,6 @@ public class DaoImpl implements Dao{
 	public User getUser(User user) {
 		User returnedUser = null;
 		String sql = "SELECT * FROM st_user WHERE username = ?";
-		
-			try {
-	            Class.forName("oracle.jdbc.driver.OracleDriver");
-	        } catch (ClassNotFoundException e) {
-	            e.printStackTrace();
-	        }
 		
 		try(Connection connect = DriverManager.getConnection(URL, USERNAME, PASSWORD)) {
 		
@@ -49,12 +52,6 @@ public class DaoImpl implements Dao{
 	public void createUser(User user) {
 		String sql = "INSERT INTO st_user(username, first_name, last_name, pw, user_role_id)"
 		+ " VALUES(?, ?, ?, ? ,?)";
-		
-		try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
 		
 		try(Connection connect = DriverManager.getConnection(URL, USERNAME, PASSWORD)) {
 			PreparedStatement ps = connect.prepareStatement(sql);
